@@ -1,1 +1,8 @@
-// 1. Write a C program to print your name.
+// write a program to print your name
+#include <stdio.h>
+int main (void)
+{
+
+printf("My Name is Adithya Hariharan");
+return 0;
+}
