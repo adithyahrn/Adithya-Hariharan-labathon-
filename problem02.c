@@ -12,7 +12,7 @@ scanf("%d" , &b);
 sum = a+b;
 
     printf("the sum of the given two numbers is:%d",sum);
-
+return 0;
  
     
 }
