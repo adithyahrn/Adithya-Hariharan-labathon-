@@ -1,11 +1,18 @@
-//2. Write a C program to add two numbers.
 #include <stdio.h>
+int main(){
 
-int main()
-{
-    int a=5;
-    int b=7;
-    printf("%d",a+b);
+int a;
+int b;
+int sum;
+printf("enter value of a ");
+scanf("%d" , &a);
+printf("enter value of b ");
+scanf("%d" , &b);
 
-    return 0;
+sum = a+b;
+
+    printf("the sum of the given two numbers is:%d",sum);
+
+ 
+    
 }
